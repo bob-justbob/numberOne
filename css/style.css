@@ -15,7 +15,7 @@ section {
 }
 
 .mainInfo {
-    width: 400px;
+    width: 500px;
     height: 100%;
     position: fixed;
     background-color: darkgray;
@@ -82,9 +82,13 @@ section {
 @media only screen and (max-width: 360px) {
     section {
         flex-direction: column;
+        position: unset;
         height: 400px;
     }
     .mainInfo {
         width: 100%;
+    }
+    .yah {
+        margin-left: 0%;
     }
 }
