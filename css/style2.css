@@ -1,0 +1,198 @@
+body {
+    background-color: gray;
+}
+body {
+    display: block;
+}
+
+* {
+    list-style: none;
+    text-decoration: none;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 900px;
+}
+
+.mainInfo {
+    width: 400px;
+    height: 100%;
+    /* position: fixed; */
+    background-color: darkgray;
+}
+
+.lg {
+
+    
+}
+
+.img {
+
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-left: 23%;
+    margin-top: 15px;
+    object-fit: cover;
+}
+
+.img img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.sos {
+    margin-top: 20px;
+    height: 50px;
+}
+.yah {
+    width: 120px;
+    height: 40px;
+    margin-left: 33%;
+    display: flex;
+    align-items: center;
+}
+
+.yah div {
+    width: 40px;
+    height: 30px;
+    margin-left: 10px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.yah img {
+    width: 40px;
+    height: 30px;
+}
+
+.info {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.info li {
+    margin-top: 15px;
+}
+
+.second {
+    width: 100%;
+    height: 900px;
+    margin-left: 22%;
+}
+
+.profile {
+    margin-top: 5px;
+    margin-left: 5px;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+}
+.picture {
+    width: 400px;
+    height: 500px;
+    margin-left: 20px;
+    margin-top: 40px;
+    object-fit: cover;
+    display: flex;
+}
+
+.picture img {
+    width: 400px;
+    height: 500px;
+}
+
+.nata {
+    width: 100%;
+    height: 450px;
+    margin-top: 20px;
+    margin-left: 5px;
+    display: flex
+}
+
+.nata h2 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.content {
+    width: 50%;
+    height: 440px;
+}
+
+.content h3 {
+    font-size: 25px;
+    font-weight: bold;
+
+}
+.content p {
+    margin-top: 10px;
+    font-size: 20px;
+}
+.content div a {
+    font-size: 30px;
+}
+
+span {
+    font-size: 30px;
+}
+
+.languages {
+    height: 440px;
+    width: 50%;
+}
+
+.yeah {
+
+    margin-top: 40px;
+    width: 100%;
+    margin-left: 10px;
+}
+.yeah h2 {
+    width: 100%;
+    height: 40px;
+
+    font-size: 50px;
+}
+
+.languages h3 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.languages p {
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 360px){
+    section {
+        flex-direction: column;
+    }
+    .profile {
+        
+        flex-direction: column;
+        
+    }
+    .mainInfo {
+        width: 100%;
+    }
+    .second {
+        margin-left: 0%;
+    }
+    .profile {
+        margin-left: 0%;
+        margin-top: 0%;
+    }
+    .picture {
+        margin-top: 2%;
+        margin-right: 0%;
+    }
+}
