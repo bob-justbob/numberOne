@@ -20,7 +20,7 @@ section {
 .mainInfo {
     width: 400px;
     height: 100%;
-    /* position: fixed; */
+    position: fixed;
     background-color: darkgray;
 }
 
