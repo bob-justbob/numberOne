@@ -1,94 +1,25 @@
-body {
-    display: block;
-}
-
-* {
-    list-style: none;
-    text-decoration: none;
+.mainDiv {
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    border: 3px solid lightgray;
 }
 
 section {
-    display: flex;
-    flex-direction: row;
     width: 100%;
-    height: 900px;
-}
-
-.mainInfo {
-    width: 500px;
     height: 100%;
-    position: fixed;
-    background-color: darkgray;
-}
-
-.lg {
-
-    
-}
-
-.img {
-
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    margin-left: 23%;
-    margin-top: 15px;
-    object-fit: cover;
-}
-
-.img img {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-}
-
-.sos {
-    margin-top: 20px;
-    height: 50px;
-}
-.yah {
-    width: 120px;
-    height: 40px;
-    margin-left: 33%;
-    display: flex;
-    align-items: center;
-}
-
-.yah div {
-    width: 40px;
-    height: 30px;
-    margin-left: 10px;
-    border-radius: 50%;
-    object-fit: cover;
-}
-
-.yah img {
-    width: 40px;
-    height: 30px;
-}
-
-.info {
-    margin-top: 20px;
-    text-align: center;
-    font-size: 30px;
-    font-weight: bold;
-}
-
-.info li {
-    margin-top: 15px;
 }
 
 
-@media only screen and (max-width: 360px) {
-    section {
+
+@media only screen and (max-width: 560px) {
+    .mainDiv {
         flex-direction: column;
-        position: unset;
-        height: 400px;
-    }
-    .mainInfo {
         width: 100%;
     }
-    .yah {
-        margin-left: 0%;
+    .prof {
+        width: 100%;
     }
 }

@@ -1,0 +1,262 @@
+.info {
+    width: 100%;
+    height: 100%;
+    margin-left: 2%;
+    background-color: lightgray;
+}
+
+.bigname {
+    width: 100%;
+    height: 250px;
+}
+
+.infoname {
+    font-size: 50px;
+    width: 320px;
+    margin-left: 50%;
+}
+
+.profile {
+    height: 150px;
+}
+
+.profile div {
+    display: flex;
+    padding-bottom: 5px;
+    border-bottom: 3px solid black;
+}
+
+.profile p {
+    margin-left: 2%;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.profile div img {
+    width: 20px;
+}
+
+.profileinfo {
+    font-size: 20px;
+    font-weight: lighter;
+    margin-top: 1%;
+}
+
+.work {
+    width: 100%;
+    height: 200px;
+}
+
+.workicon {
+    width: 100%;
+    height: 20px;
+    display: flex;
+    border-bottom: 3px solid black;
+}
+
+.workicon img {
+    width: px;
+
+}
+
+.workicon p {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.workinfo {
+    width: 100%;
+    height: 160px;
+}
+
+.evo {
+    width: 100%;
+    height: 50px;
+    margin-top: 1%;
+    display: flex;
+}
+
+.evo h2 {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.evowork {
+    width: 80%;
+    height: 50px;
+}
+
+.evodate {
+    width: 30%;
+    height: 20px;
+    text-align: right;
+    margin-right: 3%;
+}
+
+.description {
+    font-weight: bold;
+}
+
+.education {
+    width: 100%;
+    height: 170px;
+}
+
+.educationicon {
+    width: 100%;
+    height: 30px;
+    border-bottom: 3px solid black;
+    display: flex;
+}
+
+.education img {
+    width: 30px;
+}
+.education h2 {
+    margin-left: 2%;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.ilia {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    border-bottom: 3px solid black;
+}
+
+.ilianame {
+    width: 100%;
+    height: 60px;
+}
+
+.ilianame img {
+    width: 40px;
+}
+
+.ilianame p {
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 2%;
+}
+
+#yeah {
+    font-size: 10px;
+    margin-top: 1%;
+}
+
+.skill {
+    width: 100%;
+    height: 350px;
+}
+
+.skillicon {
+    width: 100%;
+    height: 30px;
+    display: flex;
+}
+
+.skillmain {
+    width: 100%;
+    height: 300px;
+    display: flex;
+
+}
+
+/* .skillmain  div{
+    width: 50%;
+    height: 350;
+    border:  5px solid green;
+} */
+
+.skillone { 
+    width: 50%;
+    margin-left: 1%;
+    
+}
+
+.skilltwo {
+}
+.skillone div {
+    width: 100%;
+    margin-top: 10%;
+}
+
+.powerpoint div {
+    width: 50%;
+}
+
+.paragrap {
+    border: 5px solid blue;
+    width: 100px;
+}
+.lvl {
+
+    border: 5px solid gray;
+}
+
+.skills {
+
+    padding-top: 10px; 
+    padding-bottom: 10px; 
+    color: white; /* White text color */
+  }
+
+  .container {
+    width: 100%; /* Full width */
+    background-color: #ddd; /* Grey background */
+  }
+
+  .html {width: 100%; background-color: #04AA6D;} /* Green */
+.css {width: 80%; background-color: #2196F3;} /* Blue */
+
+.powerpoint p {
+    margin-top: 2%;
+}
+
+.skilltwo {
+    width: 50%;
+}
+
+.skilltwo div {
+ margin-top: ;
+}
+.skilltwo p {
+    margin-top: 5%;
+}
+
+
+
+@media only screen and (max-width: 560px) {
+    .info {
+        flex-direction: column;
+        width: 100%;
+    }
+    .infoname {
+        margin-left: 0%;
+    }
+    .work{
+        margin-top: 20%;
+    }
+    .education{
+        margin-top: 40%;
+    }
+    .bigname {
+        height: 150px;
+    }
+    .profileicon {
+        margin-bottom: 5%;
+    }
+    .evo {
+        margin-top: 2%;
+    }
+    .evowork h2 {
+        margin-bottom: 5%;
+    }
+    .evowork p {
+        margin-top: 5%;
+    }
+    .description p {
+        margin-top: 15%;
+    }
+}

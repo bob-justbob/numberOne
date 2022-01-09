@@ -1,0 +1,176 @@
+.prof {
+    width: 40%;
+    height: 100%;
+    background-color: green;
+}
+
+.img {
+    width: 200px;
+    height: 250px;
+    margin: auto;
+    margin-top: 5%;
+}
+
+.profimage {
+    width: 150px;
+    height: 200px;
+    object-fit: cover;
+    margin: auto;
+}
+
+.profname {
+    margin-top: 2%;
+}
+
+.profimage img {
+    width: 150px;
+    height: 200px;
+    border: 5px solid green;
+}
+
+.profname {
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 10%;
+}
+
+.contacts {
+    width: 100%;
+    height: 270px;
+    margin-top: 2%;
+    border-bottom: 3px solid black;
+}
+
+.cont {
+    width: 100%;
+    height: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    border-bottom: 3px solid black;
+}
+
+.cont div {
+    width: 100%;
+    height: 30px;
+    margin-top: 15%;
+}
+
+.phone {
+    display: flex;
+}
+
+.phone p {
+    margin-left: 5%;
+    font-size: 20px;
+}
+
+.mail {
+    display: flex;
+    
+}
+.mail img {
+    height: 30px;
+}
+
+.mail p {
+    margin-left: 2%;
+}
+
+.location {
+    display: flex;
+}
+
+.location img {
+    height: 30px;
+}
+
+.fb {
+    border-bottom: 3px solid black;
+    height: 70px;
+}
+
+.fb h2 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.fbicon {
+
+    width: 50%;
+    height: 40px;
+    margin: auto;
+    display: flex;
+    margin-top: 3%;
+}
+
+.fbicon div {
+    width: 30%;
+    height: 40px;
+    border-radius: 50%;
+    margin-left: 10%;
+    object-fit: cover;
+}
+
+.facebook  img {
+    width: 100%;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.insta img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.hobbis {
+    width: 100%;
+    height: 250px;
+}
+
+.hobbis div {
+    width: 100%;
+}
+
+.twodiv {
+    
+    width: 100%;
+    height: 80px;
+    display: flex;
+    margin-top: 2%;
+}
+
+.twodiv div {
+    width: 40px;
+    height: 40px;
+    margin: auto;
+}
+
+.onediv {
+    width: 100%;
+    height: 80px;
+    margin-top: 5%;
+}
+
+.onediv div {
+    width: 50px;
+    margin: auto;
+}
+
+.reading img {
+    width: 40px;
+    height: 40px;
+}
+
+
+
+@media only screen and (max-width: 560px) {
+    .prof {
+        flex-direction: column;
+        width: 100%;
+    }
+   
+}
