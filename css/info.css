@@ -260,3 +260,39 @@
         margin-top: 15%;
     }
 }
+
+
+
+@media only screen and (max-width: 860px) {
+    .info {
+        flex-direction: column;
+        width: 100%;
+    }
+    .infoname {
+        margin-left: 0%;
+    }
+    .work{
+        margin-top: 20%;
+    }
+    .education{
+        margin-top: 40%;
+    }
+    .bigname {
+        height: 150px;
+    }
+    .profileicon {
+        margin-bottom: 5%;
+    }
+    .evo {
+        margin-top: 2%;
+    }
+    .evowork h2 {
+        margin-bottom: 5%;
+    }
+    .evowork p {
+        margin-top: 5%;
+    }
+    .description p {
+        margin-top: 15%;
+    }
+}

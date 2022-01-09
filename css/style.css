@@ -23,3 +23,12 @@ section {
         width: 100%;
     }
 }
+@media only screen and (max-width: 860px) {
+    .mainDiv {
+        flex-direction: column;
+        width: 100%;
+    }
+    .prof {
+        width: 100%;
+    }
+}
