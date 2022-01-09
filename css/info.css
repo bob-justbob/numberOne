@@ -3,6 +3,7 @@
     height: 100%;
     margin-left: 2%;
     background-color: lightgray;
+    color: gray;
 }
 
 .bigname {
@@ -12,8 +13,9 @@
 
 .infoname {
     font-size: 50px;
-    width: 320px;
+    width: 400px;
     margin-left: 50%;
+
 }
 
 .profile {
@@ -28,8 +30,12 @@
 
 .profile p {
     margin-left: 2%;
-    font-size: 20px;
+    /* font-size: 30px; */
     font-weight: bold;
+}
+
+span {
+    color: black;
 }
 
 .profile div img {
