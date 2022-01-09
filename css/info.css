@@ -10,6 +10,7 @@
 .bigname {
     width: 100%;
     height: 250px;
+    border-top: 3px solid black;
 }
 
 .infoname {
@@ -285,7 +286,7 @@ span {
         margin-top: 20%;
     }
     .education{
-        margin-top: 40%;
+        margin-top: 70%;
     }
     .bigname {
         height: 150px;
